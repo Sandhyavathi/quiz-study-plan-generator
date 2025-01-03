@@ -3,9 +3,9 @@ import requests
 import json
 
 # API URLs
-ROOT_API_URL = "http://127.0.0.1:8000/"  # Replace with your FastAPI root endpoint
-QUIZ_API_URL = "http://127.0.0.1:8000/quiz"  # Replace with your FastAPI quiz endpoint
-CHECK_ANSWERS_API_URL = "http://127.0.0.1:8000/check_answers"  # Replace with your FastAPI check answers endpoint
+ROOT_API_URL = "http://52.172.55.217/"  # Replace with your FastAPI root endpoint
+QUIZ_API_URL = "http://52.172.55.217/quiz"  # Replace with your FastAPI quiz endpoint
+CHECK_ANSWERS_API_URL = "http://52.172.55.217/check_answers"  # Replace with your FastAPI check answers endpoint
 
 # Initialize session state
 if "quiz_data" not in st.session_state:
