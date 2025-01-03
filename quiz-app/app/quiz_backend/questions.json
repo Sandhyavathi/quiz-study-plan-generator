@@ -1,0 +1,1828 @@
+[
+    {
+        "id": 1,
+        "question": "Which Python library is primarily used for numerical computations?",
+        "options": [
+            "Matplotlib",
+            "NumPy",
+            "Seaborn",
+            "SciPy"
+        ],
+        "correctAnswer": 2,
+        "topic": "Python"
+    },
+    {
+        "id": 2,
+        "question": "What does the df.describe() function in Pandas do?",
+        "options": [
+            "Displays the first few rows of a DataFrame",
+            "Generates summary statistics for numeric columns",
+            "Drops rows with missing values",
+            "Filters data based on a condition"
+        ],
+        "correctAnswer": 2,
+        "topic": "Python"
+    },
+    {
+        "id": 3,
+        "question": "Which method is used to create a box plot in Matplotlib?",
+        "options": [
+            "plot()",
+            "scatter()",
+            "boxplot()",
+            "line()"
+        ],
+        "correctAnswer": 3,
+        "topic": "Python"
+    },
+    {
+        "id": 4,
+        "question": "In Python, what does the len() function return when applied to a DataFrame?",
+        "options": [
+            "The number of rows",
+            "The number of columns",
+            "The size in memory",
+            "None"
+        ],
+        "correctAnswer": 1,
+        "topic": "Python"
+    },
+    {
+        "id": 5,
+        "question": "Which library is used in Python for creating beautiful static, animated, and interactive visualizations?",
+        "options": [
+            "Matplotlib",
+            "Plotly",
+            "NumPy",
+            "SciKit-Learn"
+        ],
+        "correctAnswer": 2,
+        "topic": "Python"
+    },
+    {
+        "id": 6,
+        "question": "What is the default method in R for handling missing values in data?",
+        "options": [
+            "Remove the rows containing NA",
+            "Replace NA with mean",
+            "NA is kept unless explicitly handled",
+            "Replace NA with 0"
+        ],
+        "correctAnswer": 3,
+        "topic": "R"
+    },
+    {
+        "id": 7,
+        "question": "Which R function is used to summarize data in a tabular form?",
+        "options": [
+            "summary()",
+            "aggregate()",
+            "table()",
+            "factor()"
+        ],
+        "correctAnswer": 1,
+        "topic": "R"
+    },
+    {
+        "id": 8,
+        "question": "What does the ggplot2 library in R specialize in?",
+        "options": [
+            "Statistical computations",
+            "Text processing",
+            "Data visualization",
+            "Machine learning"
+        ],
+        "correctAnswer": 3,
+        "topic": "R"
+    },
+    {
+        "id": 9,
+        "question": "What does the str() function in R do?",
+        "options": [
+            "Displays the structure of an object",
+            "Converts data to string",
+            "Performs string operations",
+            "None of the above"
+        ],
+        "correctAnswer": 1,
+        "topic": "R"
+    },
+    {
+        "id": 10,
+        "question": "How are categorical variables represented in R?",
+        "options": [
+            "strings",
+            "integers",
+            "factors",
+            "arrays"
+        ],
+        "correctAnswer": 3,
+        "topic": "R"
+    },
+    {
+        "id": 11,
+        "question": "What is the term for combining rows from two DataFrames in Python using a common key?",
+        "options": [
+            "Concatenation",
+            "Filtering",
+            "Merging",
+            "Reshaping"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 12,
+        "question": "In Pandas, what does the pivot_table() function do?",
+        "options": [
+            "Transpose the data",
+            "Create a cross-tabulation",
+            "Summarize data by aggregating values",
+            "Remove duplicates"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 13,
+        "question": "What is the purpose of the tidyr library in R?",
+        "options": [
+            "Data tidying",
+            "Data visualization",
+            "Statistical analysis",
+            "Clustering"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 14,
+        "question": "Which function is used to identify missing values in a Pandas DataFrame?",
+        "options": [
+            "check_missing()",
+            "isna() or isnull()",
+            "nan_check()",
+            "dropna()"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 15,
+        "question": "What is data wrangling?",
+        "options": [
+            "Transforming and cleaning raw data into a usable format",
+            "Building machine learning models",
+            "Visualizing data",
+            "Performing SQL queries"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 16,
+        "question": "What is an outlier?",
+        "options": [
+            "A missing value",
+            "A value that is the mean of the dataset",
+            "A data point significantly different from others",
+            "None of the above"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 17,
+        "question": "Which technique is used to handle missing values?",
+        "options": [
+            "Removing them",
+            "Imputing with mean, median, or mode",
+            "Predicting them using ML models",
+            "All of the above"
+        ],
+        "correctAnswer": 4,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 18,
+        "question": "In Python, which function removes duplicate rows in a DataFrame?",
+        "options": [
+            "drop_duplicates()",
+            "remove_duplicates()",
+            "clean_data()",
+            "drop_duplicates()"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 19,
+        "question": "In R, which function can replace missing values with the column mean?",
+        "options": [
+            "impute()",
+            "na.replace()",
+            "replace_na()",
+            "fill_na()"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 20,
+        "question": "What is data inconsistency?",
+        "options": [
+            "When the data format, units, or values are not uniform",
+            "Missing values in the dataset",
+            "Duplicate rows in the dataset",
+            "All of the above"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 21,
+        "question": "What is the primary purpose of an activation function in a neural network?",
+        "options": [
+            "To initialize weights",
+            "To optimize the model",
+            "To introduce non-linearity into the model",
+            "To calculate loss"
+        ],
+        "correctAnswer": 3,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 22,
+        "question": "Which of the following is NOT a commonly used activation function?",
+        "options": [
+            "Sigmoid",
+            "ReLU",
+            "Softmax",
+            "Logarithmic"
+        ],
+        "correctAnswer": 4,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 23,
+        "question": "What does 'backpropagation' refer to?",
+        "options": [
+            "A data pre-processing step",
+            "A clustering algorithm",
+            "A method for updating weights in a neural network",
+            "An ensemble method"
+        ],
+        "correctAnswer": 3,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 24,
+        "question": "Which neural network is best suited for image recognition?",
+        "options": [
+            "Recurrent Neural Network",
+            "Fully Connected Network",
+            "Convolutional Neural Network",
+            "Generative Adversarial Network"
+        ],
+        "correctAnswer": 3,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 25,
+        "question": "What is 'dropout' in deep learning?",
+        "options": [
+            "Removing data points",
+            "Regularization technique to prevent overfitting",
+            "Optimization algorithm",
+            "Learning rate adjustment"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 26,
+        "question": "Which SQL statement is used to extract data from a database?",
+        "options": [
+            "INSERT",
+            "UPDATE",
+            "SELECT",
+            "DELETE"
+        ],
+        "correctAnswer": 3,
+        "topic": "SQL"
+    },
+    {
+        "id": 27,
+        "question": "What is the purpose of the WHERE clause in SQL?",
+        "options": [
+            "To sort data",
+            "To filter records based on a condition",
+            "To group data",
+            "To join tables"
+        ],
+        "correctAnswer": 2,
+        "topic": "SQL"
+    },
+    {
+        "id": 28,
+        "question": "Which keyword in SQL is used to eliminate duplicate rows in a query result?",
+        "options": [
+            "DISTINCT",
+            "UNIQUE",
+            "FILTER",
+            "EXCEPT"
+        ],
+        "correctAnswer": 1,
+        "topic": "SQL"
+    },
+    {
+        "id": 29,
+        "question": "What does the GROUP BY clause do in SQL?",
+        "options": [
+            "Combines rows with the same values in specified columns",
+            "Joins multiple tables",
+            "Sorts rows in ascending order",
+            "Filters rows based on conditions"
+        ],
+        "correctAnswer": 1,
+        "topic": "SQL"
+    },
+    {
+        "id": 30,
+        "question": "Which machine learning algorithm is primarily used for classification tasks?",
+        "options": [
+            "Linear Regression",
+            "K-Means",
+            "Decision Tree",
+            "Principal Component Analysis"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 31,
+        "question": "What is overfitting in machine learning?",
+        "options": [
+            "When the model performs well on unseen data",
+            "When the model captures noise in the training data",
+            "When the model underperforms on training data",
+            "When the model uses too few features"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 32,
+        "question": "What is the main objective of clustering in machine learning?",
+        "options": [
+            "To classify data into predefined categories",
+            "To reduce the dimensionality of data",
+            "To group similar data points together",
+            "To predict continuous values"
+        ],
+        "correctAnswer": 3,
+        "topic": "Clustering"
+    },
+    {
+        "id": 33,
+        "question": "Which clustering algorithm uses the concept of centroids?",
+        "options": [
+            "K-Means",
+            "DBSCAN",
+            "Hierarchical Clustering",
+            "Gaussian Mixture Models"
+        ],
+        "correctAnswer": 1,
+        "topic": "Clustering"
+    },
+    {
+        "id": 34,
+        "question": "What is the key characteristic of unsupervised learning?",
+        "options": [
+            "The model is trained with labeled data",
+            "The model makes predictions on a target variable",
+            "The model identifies patterns in data without labels",
+            "The model uses reinforcement signals"
+        ],
+        "correctAnswer": 3,
+        "topic": "Clustering"
+    },
+    {
+        "id": 35,
+        "question": "Which Python library is commonly used for building machine learning models?",
+        "options": [
+            "NumPy",
+            "Pandas",
+            "Matplotlib",
+            "Scikit-learn"
+        ],
+        "correctAnswer": 4,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 36,
+        "question": "Which metric is used to evaluate classification models?",
+        "options": [
+            "Mean Squared Error",
+            "Accuracy",
+            "R-squared",
+            "Root Mean Squared Error"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 37,
+        "question": "Which technique is used to address multicollinearity in regression models?",
+        "options": [
+            "Principal Component Analysis (PCA)",
+            "Feature Scaling",
+            "Adding Polynomial Features",
+            "Ridge Regression"
+        ],
+        "correctAnswer": 4,
+        "topic": "Dimensionality Reduction"
+    },
+    {
+        "id": 38,
+        "question": "What is the key benefit of dimensionality reduction?",
+        "options": [
+            "Increased model complexity",
+            "Faster computation and reduced risk of overfitting",
+            "Increased memory usage",
+            "Adding new features to the dataset"
+        ],
+        "correctAnswer": 2,
+        "topic": "Dimensionality Reduction"
+    },
+    {
+        "id": 39,
+        "question": "What does t-SNE stand for?",
+        "options": [
+            "Tuned Singular Normalized Encoding",
+            "T-Distributed Stochastic Neighbor Embedding",
+            "Tuned Similarity Neural Encoder",
+            "Tensor Singular Node Embedding"
+        ],
+        "correctAnswer": 2,
+        "topic": "Dimensionality Reduction"
+    },
+    {
+        "id": 40,
+        "question": "Which metric is commonly used to measure the performance of a regression model?",
+        "options": [
+            "Accuracy",
+            "F1-Score",
+            "Mean Squared Error",
+            "Precision"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 41,
+        "question": "Which algorithm is considered a supervised learning method?",
+        "options": [
+            "K-Means",
+            "Linear Regression",
+            "DBSCAN",
+            "t-SNE"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 42,
+        "question": "What is a common use of SQL's JOIN operation?",
+        "options": [
+            "Filter duplicate rows",
+            "Combine data from multiple tables",
+            "Sort rows in ascending order",
+            "Aggregate numeric values"
+        ],
+        "correctAnswer": 2,
+        "topic": "SQL"
+    },
+    {
+        "id": 43,
+        "question": "What is normalization in data preprocessing?",
+        "options": [
+            "Scaling values to a range of [0, 1]",
+            "Removing missing values",
+            "Converting categorical values to numerical values",
+            "Combining multiple datasets"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 44,
+        "question": "What is feature scaling?",
+        "options": [
+            "Reducing the number of features in a dataset",
+            "Converting numerical features into categorical features",
+            "Adjusting the range of feature values",
+            "Combining similar features"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 45,
+        "question": "What is the primary use of data visualization?",
+        "options": [
+            "To perform clustering",
+            "To reduce the dimensionality of data",
+            "To present insights in a graphical format",
+            "To train machine learning models"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 46,
+        "question": "Which library is commonly used in Python for data visualization?",
+        "options": [
+            "NumPy",
+            "Scikit-learn",
+            "Seaborn",
+            "TensorFlow"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 47,
+        "question": "What type of plot is best for showing the relationship between two continuous variables?",
+        "options": [
+            "Bar Plot",
+            "Histogram",
+            "Scatter Plot",
+            "Box Plot"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 48,
+        "question": "What is the purpose of a confusion matrix?",
+        "options": [
+            "To summarize a regression model's performance",
+            "To visualize the distribution of categorical variables",
+            "To evaluate the performance of a classification model",
+            "To reduce dimensionality in datasets"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 49,
+        "question": "Which function in Python is used to calculate the correlation coefficient?",
+        "options": [
+            "corr()",
+            "cov()",
+            "correlation()",
+            "compute_corr()"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 50,
+        "question": "What is the purpose of feature selection in machine learning?",
+        "options": [
+            "To add more features to a dataset",
+            "To identify and keep only the most relevant features",
+            "To improve model accuracy by increasing dimensionality",
+            "To combine similar features into one"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 51,
+        "question": "What is the purpose of one-hot encoding?",
+        "options": [
+            "To normalize numerical features",
+            "To convert categorical data into a binary format",
+            "To scale data to a range of [0, 1]",
+            "To identify missing values"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 52,
+        "question": "Which SQL command is used to modify existing records in a table?",
+        "options": [
+            "INSERT",
+            "DELETE",
+            "UPDATE",
+            "ALTER"
+        ],
+        "correctAnswer": 3,
+        "topic": "SQL"
+    },
+    {
+        "id": 53,
+        "question": "In SQL, what is the difference between INNER JOIN and LEFT JOIN?",
+        "options": [
+            "INNER JOIN returns only matching rows; LEFT JOIN includes all rows from the left table",
+            "INNER JOIN is faster; LEFT JOIN is slower",
+            "INNER JOIN combines rows; LEFT JOIN deletes rows",
+            "There is no difference between them"
+        ],
+        "correctAnswer": 1,
+        "topic": "SQL"
+    },
+    {
+        "id": 54,
+        "question": "Which metric is best used to evaluate the performance of clustering algorithms?",
+        "options": [
+            "Confusion Matrix",
+            "Silhouette Score",
+            "Mean Squared Error",
+            "F1-Score"
+        ],
+        "correctAnswer": 2,
+        "topic": "Clustering"
+    },
+    {
+        "id": 55,
+        "question": "What is the main idea of Principal Component Analysis (PCA)?",
+        "options": [
+            "To classify data into groups",
+            "To reduce dimensionality by transforming features into uncorrelated components",
+            "To visualize data relationships",
+            "To handle missing values"
+        ],
+        "correctAnswer": 2,
+        "topic": "Dimensionality Reduction"
+    },
+    {
+        "id": 56,
+        "question": "What is a heatmap used for in data visualization?",
+        "options": [
+            "To show relationships between numerical variables",
+            "To represent a distribution of categorical data",
+            "To visualize the correlation matrix",
+            "To display a time series"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 57,
+        "question": "Which loss function is commonly used for regression problems?",
+        "options": [
+            "Cross-Entropy Loss",
+            "Hinge Loss",
+            "Mean Squared Error",
+            "Log Loss"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 58,
+        "question": "What does regularization in machine learning aim to achieve?",
+        "options": [
+            "Improve model complexity",
+            "Prevent overfitting by penalizing large coefficients",
+            "Increase training accuracy",
+            "Ensure data is balanced"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 59,
+        "question": "What is a key feature of convolutional neural networks (CNNs)?",
+        "options": [
+            "Use of pooling layers to reduce spatial dimensions",
+            "Ability to handle sequential data",
+            "Implementation of reinforcement learning",
+            "Designed for structured data analysis"
+        ],
+        "correctAnswer": 1,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 60,
+        "question": "Which neural network architecture is best suited for processing sequential data?",
+        "options": [
+            "Fully Connected Networks",
+            "Recurrent Neural Networks (RNNs)",
+            "Convolutional Neural Networks (CNNs)",
+            "Generative Adversarial Networks (GANs)"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 61,
+        "question": "What is the output of the SQL COUNT() function?",
+        "options": [
+            "The total number of rows matching a condition",
+            "The sum of all numeric values in a column",
+            "The average value in a numeric column",
+            "The largest value in a column"
+        ],
+        "correctAnswer": 1,
+        "topic": "SQL"
+    },
+    {
+        "id": 62,
+        "question": "In clustering, what is the 'elbow method' used for?",
+        "options": [
+            "Determining the optimal number of clusters",
+            "Evaluating classification accuracy",
+            "Reducing the number of features",
+            "Visualizing high-dimensional data"
+        ],
+        "correctAnswer": 1,
+        "topic": "Clustering"
+    },
+    {
+        "id": 63,
+        "question": "What is cross-validation used for in machine learning?",
+        "options": [
+            "Improving model performance on unseen data",
+            "Increasing the number of features",
+            "Speeding up the training process",
+            "Handling missing values"
+        ],
+        "correctAnswer": 1,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 64,
+        "question": "Which plot is ideal for visualizing the distribution of a single continuous variable?",
+        "options": [
+            "Scatter Plot",
+            "Histogram",
+            "Line Plot",
+            "Heatmap"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 65,
+        "question": "What is one advantage of using ReLU as an activation function?",
+        "options": [
+            "It prevents vanishing gradients",
+            "It is only used in binary classification",
+            "It works well with sequential data",
+            "It performs well in data scaling"
+        ],
+        "correctAnswer": 1,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 66,
+        "question": "What is the main function of the GROUP BY clause in SQL?",
+        "options": [
+            "To filter rows",
+            "To aggregate data based on specific columns",
+            "To delete duplicate rows",
+            "To join tables"
+        ],
+        "correctAnswer": 2,
+        "topic": "SQL"
+    },
+    {
+        "id": 67,
+        "question": "What does the .groupby() method in Pandas achieve?",
+        "options": [
+            "Sorts rows alphabetically",
+            "Applies aggregation functions to grouped data",
+            "Drops duplicate rows",
+            "Merges two DataFrames"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 68,
+        "question": "Which term refers to the process of standardizing the range of features in data preprocessing?",
+        "options": [
+            "Feature Engineering",
+            "Feature Scaling",
+            "Dimensionality Reduction",
+            "Normalization"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 69,
+        "question": "Which Python library provides a high-level interface for machine learning tasks?",
+        "options": [
+            "TensorFlow",
+            "Keras",
+            "Scikit-learn",
+            "PyTorch"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 70,
+        "question": "Which SQL command is used to combine rows from two tables?",
+        "options": [
+            "UNION",
+            "INTERSECT",
+            "MERGE",
+            "SUBTRACT"
+        ],
+        "correctAnswer": 1,
+        "topic": "SQL"
+    },
+    {
+        "id": 71,
+        "question": "What does 'epoch' mean in the context of deep learning?",
+        "options": [
+            "A single forward pass of the model",
+            "A single pass through the entire training dataset",
+            "The process of optimizing weights",
+            "A specific type of activation function"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 72,
+        "question": "What is the purpose of the silhouette score in clustering?",
+        "options": [
+            "To calculate the number of clusters",
+            "To measure how similar a point is to its cluster compared to other clusters",
+            "To evaluate regression models",
+            "To measure the classification accuracy"
+        ],
+        "correctAnswer": 2,
+        "topic": "Clustering"
+    },
+    {
+        "id": 73,
+        "question": "What does the head() function in Pandas do?",
+        "options": [
+            "Displays a summary of the DataFrame",
+            "Returns the first n rows of the DataFrame",
+            "Filters data based on conditions",
+            "Checks for missing values"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 74,
+        "question": "What is the main challenge addressed by L1 and L2 regularization?",
+        "options": [
+            "Overfitting",
+            "Underfitting",
+            "Missing data",
+            "Reducing the number of features"
+        ],
+        "correctAnswer": 1,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 75,
+        "question": "Which data visualization technique is best for exploring relationships between three variables?",
+        "options": [
+            "Scatter plot with color encoding",
+            "Bar chart",
+            "Histogram",
+            "Pie chart"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 76,
+        "question": "What does the DROP command in SQL do?",
+        "options": [
+            "Deletes rows in a table",
+            "Deletes a table or database",
+            "Removes duplicates from a column",
+            "Resets primary key values"
+        ],
+        "correctAnswer": 2,
+        "topic": "SQL"
+    },
+    {
+        "id": 77,
+        "question": "Which clustering algorithm is best suited for non-spherical clusters?",
+        "options": [
+            "K-Means",
+            "DBSCAN",
+            "Hierarchical Clustering",
+            "Gaussian Mixture Models"
+        ],
+        "correctAnswer": 2,
+        "topic": "Clustering"
+    },
+    {
+        "id": 78,
+        "question": "Which activation function outputs values only in the range [0, 1]?",
+        "options": [
+            "ReLU",
+            "Sigmoid",
+            "Tanh",
+            "Softmax"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 79,
+        "question": "What is the primary goal of data normalization in preprocessing?",
+        "options": [
+            "To handle missing values",
+            "To ensure all features have a similar scale",
+            "To increase dataset size",
+            "To reduce data redundancy"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 80,
+        "question": "Which Python library is used for data manipulation and analysis?",
+        "options": [
+            "NumPy",
+            "Matplotlib",
+            "Pandas",
+            "Scikit-learn"
+        ],
+        "correctAnswer": 3,
+        "topic": "Python"
+    },
+    {
+        "id": 81,
+        "question": "What is the main purpose of a confusion matrix?",
+        "options": [
+            "To visualize missing data",
+            "To evaluate classification model performance",
+            "To cluster unlabeled data",
+            "To calculate feature importance"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 82,
+        "question": "Which SQL clause is used to sort query results?",
+        "options": [
+            "WHERE",
+            "GROUP BY",
+            "ORDER BY",
+            "HAVING"
+        ],
+        "correctAnswer": 3,
+        "topic": "SQL"
+    },
+    {
+        "id": 83,
+        "question": "What does the term 'backpropagation' refer to in neural networks?",
+        "options": [
+            "Initializing weights",
+            "Training a model on new data",
+            "Adjusting weights based on error gradients",
+            "Applying dropout for regularization"
+        ],
+        "correctAnswer": 3,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 84,
+        "question": "What is the key feature of a box plot?",
+        "options": [
+            "Displays a histogram of data",
+            "Represents statistical summary, including median and interquartile range",
+            "Shows relationships between variables",
+            "Visualizes a correlation matrix"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 85,
+        "question": "Which dimensionality reduction technique preserves global structure?",
+        "options": [
+            "t-SNE",
+            "PCA",
+            "UMAP",
+            "Kernel PCA"
+        ],
+        "correctAnswer": 2,
+        "topic": "Dimensionality Reduction"
+    },
+    {
+        "id": 86,
+        "question": "Which SQL statement is used to create a new table?",
+        "options": [
+            "ADD",
+            "INSERT",
+            "CREATE",
+            "ALTER"
+        ],
+        "correctAnswer": 3,
+        "topic": "SQL"
+    },
+    {
+        "id": 87,
+        "question": "Which data cleaning technique is used to handle categorical variables?",
+        "options": [
+            "Scaling",
+            "Imputation",
+            "Encoding",
+            "Standardization"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 88,
+        "question": "What is the role of the kernel in SVM?",
+        "options": [
+            "To normalize data",
+            "To transform data into a higher-dimensional space",
+            "To reduce overfitting",
+            "To minimize the number of features"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 89,
+        "question": "What is a key advantage of k-NN in machine learning?",
+        "options": [
+            "Fast training process",
+            "Handles large datasets efficiently",
+            "No assumptions about data distribution",
+            "Automatically reduces dimensionality"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 90,
+        "question": "Which library is primarily used for data visualization in Python?",
+        "options": [
+            "Pandas",
+            "Matplotlib",
+            "NumPy",
+            "Scikit-learn"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 91,
+        "question": "Which SQL function calculates the average value in a numeric column?",
+        "options": [
+            "SUM()",
+            "COUNT()",
+            "AVG()",
+            "MAX()"
+        ],
+        "correctAnswer": 3,
+        "topic": "SQL"
+    },
+    {
+        "id": 92,
+        "question": "Which algorithm is based on the idea of splitting data using hyperplanes?",
+        "options": [
+            "Decision Trees",
+            "K-Means",
+            "Support Vector Machines (SVM)",
+            "Naive Bayes"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 93,
+        "question": "What is an epoch in the context of deep learning?",
+        "options": [
+            "A single data point in training",
+            "One forward and backward pass through the entire dataset",
+            "The initialization of neural network weights",
+            "The final stage of training"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 94,
+        "question": "Which technique is used to impute missing data based on the mean value?",
+        "options": [
+            "Forward filling",
+            "Backward filling",
+            "Mean imputation",
+            "Scaling"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 95,
+        "question": "What is the purpose of the k-fold cross-validation method?",
+        "options": [
+            "To optimize hyperparameters",
+            "To reduce overfitting",
+            "To evaluate model performance on different subsets of data",
+            "To create balanced datasets"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 96,
+        "question": "What does the SQL DISTINCT keyword do?",
+        "options": [
+            "Sorts query results",
+            "Returns unique values in a column",
+            "Filters rows based on conditions",
+            "Calculates aggregates"
+        ],
+        "correctAnswer": 2,
+        "topic": "SQL"
+    },
+    {
+        "id": 97,
+        "question": "What is the main purpose of dropout in neural networks?",
+        "options": [
+            "To speed up training",
+            "To regularize the model and prevent overfitting",
+            "To increase the number of layers in the network",
+            "To initialize weights randomly"
+        ],
+        "correctAnswer": 2,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 98,
+        "question": "What does data wrangling aim to achieve?",
+        "options": [
+            "Clean and transform raw data into a structured format",
+            "Visualize data trends",
+            "Train machine learning models",
+            "Analyze statistical relationships"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Wrangling"
+    },
+    {
+        "id": 99,
+        "question": "What does the Softmax function output?",
+        "options": [
+            "A binary decision",
+            "Probability distributions for multiple classes",
+            "A normalized vector of features",
+            "Gradient values"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 100,
+        "question": "Which clustering algorithm works by grouping points based on density?",
+        "options": [
+            "K-Means",
+            "DBSCAN",
+            "Hierarchical Clustering",
+            "Gaussian Mixture Models"
+        ],
+        "correctAnswer": 2,
+        "topic": "Clustering"
+    },
+    {
+        "id": 101,
+        "question": "What is the main purpose of dimensionality reduction?",
+        "options": [
+            "To increase data size",
+            "To reduce the number of variables while retaining essential information",
+            "To cluster data points",
+            "To normalize the dataset"
+        ],
+        "correctAnswer": 2,
+        "topic": "Dimensionality Reduction"
+    },
+    {
+        "id": 102,
+        "question": "Which Python library is used for machine learning tasks?",
+        "options": [
+            "NumPy",
+            "Pandas",
+            "Scikit-learn",
+            "Matplotlib"
+        ],
+        "correctAnswer": 3,
+        "topic": "Python"
+    },
+    {
+        "id": 103,
+        "question": "In R, which function is used to merge two data frames by columns?",
+        "options": [
+            "merge()",
+            "cbind()",
+            "rbind()",
+            "join()"
+        ],
+        "correctAnswer": 2,
+        "topic": "R"
+    },
+    {
+        "id": 104,
+        "question": "Which SQL function retrieves the largest value in a column?",
+        "options": [
+            "MIN()",
+            "COUNT()",
+            "SUM()",
+            "MAX()"
+        ],
+        "correctAnswer": 4,
+        "topic": "SQL"
+    },
+    {
+        "id": 105,
+        "question": "Which type of plot is ideal for visualizing time series data?",
+        "options": [
+            "Histogram",
+            "Bar chart",
+            "Line chart",
+            "Scatter plot"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 106,
+        "question": "What is the purpose of the ReLU activation function in neural networks?",
+        "options": [
+            "To add non-linearity",
+            "To calculate probabilities",
+            "To reduce overfitting",
+            "To initialize weights"
+        ],
+        "correctAnswer": 1,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 107,
+        "question": "What does PCA stand for in dimensionality reduction?",
+        "options": [
+            "Principal Component Analysis",
+            "Primary Cluster Algorithm",
+            "Probability Confidence Algorithm",
+            "Principal Classification Analysis"
+        ],
+        "correctAnswer": 1,
+        "topic": "Dimensionality Reduction"
+    },
+    {
+        "id": 108,
+        "question": "Which clustering algorithm creates a hierarchy of clusters?",
+        "options": [
+            "K-Means",
+            "DBSCAN",
+            "Hierarchical Clustering",
+            "Spectral Clustering"
+        ],
+        "correctAnswer": 3,
+        "topic": "Clustering"
+    },
+    {
+        "id": 109,
+        "question": "What does the SQL INNER JOIN clause do?",
+        "options": [
+            "Combines rows from two tables that meet a specific condition",
+            "Returns all rows from the left table",
+            "Returns all rows from the right table",
+            "Returns all rows from both tables"
+        ],
+        "correctAnswer": 1,
+        "topic": "SQL"
+    },
+    {
+        "id": 110,
+        "question": "What is the primary goal of feature scaling?",
+        "options": [
+            "To remove irrelevant features",
+            "To ensure features have similar magnitudes",
+            "To add new features",
+            "To reduce dimensionality"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 111,
+        "question": "Which metric is used to evaluate regression models?",
+        "options": [
+            "Accuracy",
+            "Precision",
+            "Mean Squared Error",
+            "F1 Score"
+        ],
+        "correctAnswer": 3,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 112,
+        "question": "Which function is used in Python to read a CSV file?",
+        "options": [
+            "read_csv()",
+            "load_csv()",
+            "open_csv()",
+            "import_csv()"
+        ],
+        "correctAnswer": 1,
+        "topic": "Python"
+    },
+    {
+        "id": 113,
+        "question": "In R, which package is commonly used for data visualization?",
+        "options": [
+            "dplyr",
+            "ggplot2",
+            "caret",
+            "tidyverse"
+        ],
+        "correctAnswer": 2,
+        "topic": "R"
+    },
+    {
+        "id": 114,
+        "question": "Which SQL keyword is used to filter query results based on a condition?",
+        "options": [
+            "SELECT",
+            "WHERE",
+            "GROUP BY",
+            "ORDER BY"
+        ],
+        "correctAnswer": 2,
+        "topic": "SQL"
+    },
+    {
+        "id": 115,
+        "question": "What is a common challenge when using K-Means clustering?",
+        "options": [
+            "Handling non-spherical clusters",
+            "Scalability to large datasets",
+            "Interpreting results",
+            "Identifying centroids"
+        ],
+        "correctAnswer": 1,
+        "topic": "Clustering"
+    },
+    {
+        "id": 116,
+        "question": "Which activation function is commonly used for binary classification?",
+        "options": [
+            "Softmax",
+            "Tanh",
+            "Sigmoid",
+            "ReLU"
+        ],
+        "correctAnswer": 3,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 117,
+        "question": "What does the SQL GROUP BY clause do?",
+        "options": [
+            "Filters data by a condition",
+            "Groups rows with the same values in specified columns",
+            "Orders the query results",
+            "Joins two or more tables"
+        ],
+        "correctAnswer": 2,
+        "topic": "SQL"
+    },
+    {
+        "id": 118,
+        "question": "Which visualization tool is used to represent pairwise relationships in a dataset?",
+        "options": [
+            "Heatmap",
+            "Pairplot",
+            "Scatter plot",
+            "Histogram"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 119,
+        "question": "Which machine learning algorithm is based on Bayes' theorem?",
+        "options": [
+            "Decision Trees",
+            "Naive Bayes",
+            "Random Forest",
+            "Linear Regression"
+        ],
+        "correctAnswer": 2,
+        "topic": "Machine Learning"
+    },
+    {
+        "id": 120,
+        "question": "In Python, which library is used to build deep learning models?",
+        "options": [
+            "Scikit-learn",
+            "TensorFlow",
+            "Matplotlib",
+            "NumPy"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 121,
+        "question": "What does one-hot encoding do in data preprocessing?",
+        "options": [
+            "Scales features",
+            "Encodes categorical variables as binary vectors",
+            "Imputes missing values",
+            "Reduces dimensionality"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 122,
+        "question": "What is the role of the learning rate in training neural networks?",
+        "options": [
+            "It determines how quickly weights are updated during training",
+            "It defines the size of the training dataset",
+            "It controls the number of neurons in the network",
+            "It specifies the number of training epochs"
+        ],
+        "correctAnswer": 1,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 123,
+        "question": "Which plot is used to compare the distribution of a variable across categories?",
+        "options": [
+            "Bar plot",
+            "Box plot",
+            "Scatter plot",
+            "Line plot"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 124,
+        "question": "Which SQL keyword removes duplicate rows in the results?",
+        "options": [
+            "DISTINCT",
+            "UNIQUE",
+            "GROUP BY",
+            "HAVING"
+        ],
+        "correctAnswer": 1,
+        "topic": "SQL"
+    },
+    {
+        "id": 125,
+        "question": "What does the term 'epoch' refer to in machine learning?",
+        "options": [
+            "A single forward pass through the dataset",
+            "One complete iteration over the entire dataset",
+            "A subset of the training data",
+            "A measure of model accuracy"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 126,
+        "question": "What is the main function of a loss function in a neural network?",
+        "options": [
+            "To evaluate how well the model is performing",
+            "To initialize the weights of the model",
+            "To reduce the complexity of the model",
+            "To improve activation functions"
+        ],
+        "correctAnswer": 1,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 127,
+        "question": "Which optimizer is commonly used to update weights in deep learning models?",
+        "options": [
+            "Gradient Descent",
+            "Adam",
+            "RMSProp",
+            "All of the above"
+        ],
+        "correctAnswer": 4,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 128,
+        "question": "What does overfitting mean in the context of deep learning?",
+        "options": [
+            "The model performs well on unseen data",
+            "The model performs poorly on training data",
+            "The model performs well on training data but poorly on unseen data",
+            "The model uses too few parameters"
+        ],
+        "correctAnswer": 3,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 129,
+        "question": "What is the purpose of a dropout layer in neural networks?",
+        "options": [
+            "To speed up training",
+            "To prevent overfitting",
+            "To add non-linearity to the model",
+            "To improve initialization"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 130,
+        "question": "Which type of neural network is primarily used for sequential data?",
+        "options": [
+            "Convolutional Neural Networks (CNNs)",
+            "Recurrent Neural Networks (RNNs)",
+            "Feedforward Neural Networks",
+            "Radial Basis Function Networks"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 131,
+        "question": "What is a common activation function used in hidden layers of neural networks?",
+        "options": [
+            "Softmax",
+            "ReLU",
+            "Sigmoid",
+            "Linear"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+    {
+        "id": 132,
+        "question": "Which technique is used to speed up deep learning training by normalizing activations?",
+        "options": [
+            "Dropout",
+            "Batch Normalization",
+            "Data Augmentation",
+            "Gradient Clipping"
+        ],
+        "correctAnswer": 2,
+        "topic": "Deep Learning"
+    },
+     {
+        "id": 138,
+        "question": "What is the first step in data preprocessing?",
+        "options": [
+            "Data normalization",
+            "Data cleaning",
+            "Feature engineering",
+            "Dimensionality reduction"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 139,
+        "question": "Which of the following techniques is used to scale data values to a standard normal distribution?",
+        "options": [
+            "Min-max scaling",
+            "One-hot encoding",
+            "Z-score normalization",
+            "Label encoding"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 140,
+        "question": "What does data encoding involve in preprocessing?",
+        "options": [
+            "Transforming categorical data into numerical format",
+            "Imputing missing values",
+            "Reducing the dimensionality of data",
+            "Balancing the dataset"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 141,
+        "question": "What is the purpose of data standardization?",
+        "options": [
+            "To scale data to a specific range",
+            "To make data have zero mean and unit variance",
+            "To remove missing values",
+            "To eliminate outliers"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+    {
+        "id": 142,
+        "question": "Which preprocessing step deals with missing values?",
+        "options": [
+            "Encoding",
+            "Imputation",
+            "Scaling",
+            "Normalization"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Preprocessing"
+    },
+     {
+        "id": 143,
+        "question": "Which type of visualization is best suited for showing the distribution of data?",
+        "options": [
+            "Bar chart",
+            "Scatter plot",
+            "Histogram",
+            "Line chart"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 144,
+        "question": "What is the purpose of a heatmap in data visualization?",
+        "options": [
+            "To display categorical data",
+            "To show correlation between variables",
+            "To represent time-series data",
+            "To compare distributions"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 145,
+        "question": "Which library in Python is primarily used for creating static, animated, and interactive visualizations?",
+        "options": [
+            "NumPy",
+            "Pandas",
+            "Matplotlib",
+            "Scikit-learn"
+        ],
+        "correctAnswer": 3,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 146,
+        "question": "What type of chart is ideal for representing proportions or percentages?",
+        "options": [
+            "Line chart",
+            "Pie chart",
+            "Scatter plot",
+            "Bar chart"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+    {
+        "id": 147,
+        "question": "Which visualization technique is commonly used for high-dimensional data?",
+        "options": [
+            "Box plot",
+            "Scatter plot matrix",
+            "Bar chart",
+            "Heatmap"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Visualization"
+    },
+     {
+        "id": 153,
+        "question": "What is the purpose of backpropagation in a neural network?",
+        "options": [
+            "To initialize the weights of the network",
+            "To update the weights based on the gradient of the loss function",
+            "To add non-linearity to the network",
+            "To prevent overfitting"
+        ],
+        "correctAnswer": 2,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 154,
+        "question": "Which activation function outputs a value between 0 and 1?",
+        "options": [
+            "ReLU",
+            "Sigmoid",
+            "Tanh",
+            "Softmax"
+        ],
+        "correctAnswer": 2,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 155,
+        "question": "What is the role of the hidden layer in a neural network?",
+        "options": [
+            "To process the input data through weighted connections",
+            "To directly predict the output",
+            "To normalize the input data",
+            "To initialize the weights"
+        ],
+        "correctAnswer": 1,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 156,
+        "question": "Which type of neural network is best suited for image data?",
+        "options": [
+            "Convolutional Neural Network (CNN)",
+            "Recurrent Neural Network (RNN)",
+            "Feedforward Neural Network",
+            "Radial Basis Function Network"
+        ],
+        "correctAnswer": 1,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 157,
+        "question": "What is the purpose of a fully connected layer in a neural network?",
+        "options": [
+            "To connect every neuron in one layer to every neuron in the next layer",
+            "To process sequential data",
+            "To normalize the data",
+            "To reduce the dimensionality of the input"
+        ],
+        "correctAnswer": 1,
+        "topic": "Neural Networks"
+    },
+    {
+        "id": 158,
+        "question": "What is the primary goal of data cleaning?",
+        "options": [
+            "To create new features",
+            "To remove or correct errors in the dataset",
+            "To reduce dimensionality",
+            "To improve model interpretability"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 159,
+        "question": "Which of the following is an example of data cleaning?",
+        "options": [
+            "Imputing missing values",
+            "Building a predictive model",
+            "Dimensionality reduction",
+            "Feature scaling"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 160,
+        "question": "What is the common method for handling duplicate records in a dataset?",
+        "options": [
+            "Standardization",
+            "Dropping duplicates",
+            "Normalizing the data",
+            "Encoding the data"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 161,
+        "question": "What is the purpose of removing outliers during data cleaning?",
+        "options": [
+            "To reduce computational cost",
+            "To prevent skewed analysis results",
+            "To normalize the data",
+            "To increase the size of the dataset"
+        ],
+        "correctAnswer": 2,
+        "topic": "Data Cleaning"
+    },
+    {
+        "id": 162,
+        "question": "What does consistency checking involve in data cleaning?",
+        "options": [
+            "Ensuring that data follows predefined rules or formats",
+            "Filling in missing values",
+            "Normalizing numerical data",
+            "Reducing the number of features"
+        ],
+        "correctAnswer": 1,
+        "topic": "Data Cleaning"
+    }
+]
+
+
