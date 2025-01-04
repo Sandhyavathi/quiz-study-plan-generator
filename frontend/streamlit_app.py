@@ -104,7 +104,7 @@ if st.session_state.quiz_data:
                 st.header("Review Your Incorrect Answers")
                 for question in incorrect_answers:
                     st.error(
-                        f"Q{question['id']}: {question['question']}\n"
+                        f"Q{question}: {question['question']}\n"
                         f"**Correct Answer**: {question['options'][question['correctAnswer'] - 1]}\n"
                         f"**Topic**: {question['topic']}"
                     )
